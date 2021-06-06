@@ -1,0 +1,103 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="wf_System1NavigateToMonthlyReport" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1450,827" sap2010:WorkflowViewState.IdRef="wf_System1NavigateToMonthlyReport_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="wf_System1NavigateToMonthlyReport" sap:VirtualizedContainerService.HintSize="376,392" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:Click AlterIfDisabled="{x:Null}" CursorMotionType="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'BUTTON'" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+      <ui:Click.CursorPosition>
+        <ui:CursorPosition Position="Center">
+          <ui:CursorPosition.OffsetX>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetX>
+          <ui:CursorPosition.OffsetY>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetY>
+        </ui:CursorPosition>
+      </ui:Click.CursorPosition>
+      <ui:Click.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8f7e0bab-e0e2-4efc-b61a-0ecd8e0b23f0" InformativeScreenshot="1963841544ace51165aece10ffb1a4af" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;&lt;webctrl aaname='                  Reports' parentid='dashmenu' tag='BUTTON' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:Click.Target>
+    </ui:Click>
+    <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'chrome.exe ACME'" sap:VirtualizedContainerService.HintSize="334,154" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+      <ui:ClickImage.CursorPosition>
+        <ui:CursorPosition Position="Center">
+          <ui:CursorPosition.OffsetX>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetX>
+          <ui:CursorPosition.OffsetY>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:CursorPosition.OffsetY>
+        </ui:CursorPosition>
+      </ui:ClickImage.CursorPosition>
+      <ui:ClickImage.Image>
+        <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" Profile="Basic" TargetImageBase64="iVBORw0KGgoAAAANSUhEUgAAAKgAAAAWCAYAAABUi9exAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPISURBVGhD7VjJjeNADNycHJYVxj4FA5uHnIihMAw4Br+0TbIPXq3Lx2iAfhRgiWyyWCzJnvnzfD6nhoajohm04dBoBm04NJpBGw6NZtCGQ0Ma9NZPp9PJ4jxMD573JYyX0PsyurFX8bh29bnuw9SFufubE1sT34THNJxZLazdTcOd5xTM8p5DbbcB75ljL8apn5nXGtQZHo3yAyb9WYN2U3f2hANB37nYLxrUO4fGrff7PN5g0CRid32Ue+KJZA3wfj+N+SwtlC8TRIZaKPZlwNqpFu9hDFrriSCOJa74MmPB2f6ybNDh2qsaAcDh0rszld56fqpl45Iz9oq9kV/KZzyLQZ2dOFpnbNmt0CqA7YB2NtJuYlz3m9eiD1rE+Pnf9Dfn+bxXGrQQy3ncIOI6LkTEuAAgCMXTIJmYqisMOtszLloLKTgxDmgCEGjBoPdwTuUAp/5G9RJv6lUWIa8pt/TSXOk6a5C45bjkjrVjLf4Zc0GT2kzVmDaonE3HaTar5SYt2J7oHturwmqDlpgeiMDNBJ/5QF1443SpLgwUPxuBlTil5nJPg2yy8BnNzJ9krzcDOzuGN1kRD/hBHc5TciZwvjYue1NujnPeMZ/PKc6qXK67QW23qE2pgfW1ptiH9PN0K/y2a0H35LwcOwzqNZGDlc9ADprDmTIgN6/sJ2vPDy57JuCZkEugwW2fgLlZlbnz0uGM5uMYClDMYrlLPi8YVJxNWpdzAsA968Lh9HLzmEGV5pnTDi3oXp33jq/4FWbJTxzk0mBAEs7wN5IUGyBrl8Us98zCpnpMLNsnYK1BnRkEnx1LkXxeMSjTAM7V5gGYeYlX3lkE7+WBay7uQe0dWtA9eyZhxx9J/HPJkYPFpxn+MIj3YIjuOojfdFpsPUCpudTTGZKLhW8PMlmK294MSmjoQ787Uw3OU3ImcL42LntTbo5vNCjl0x8eWh8Bb7d4Vuo6q0uAF5d72KYF3VO7Y1hlUCTA7+PCWVF9nc7w4TFnSQw5AF/MfE89OF2XuDJ4XEx1EdokkXvmovrhHOwBkNeam577RYPG81p/A5jBmZe4Wu1qezL5ii/F12tB9+rcrUFDAYO8mFqu00AYCLC0KJsjDAqY62liWmi6pnj8V4ezMIQxieZemYXVTwtaM3c+C7NuNqh/zwD0qeTQy4T1RA5plgDN9dyHb8IS57PlnHx+XgsA9ZcPRYI0aMOvBBjCW+4nsOpheCOaQX894CtefZt8EM2gDesRf9Z86+0JaAZtaGBoBm04NJpBGw6NZtCGA+M5/Qdhc2v69jYn9QAAAABJRU5ErkJggg==" />
+      </ui:ClickImage.Image>
+      <ui:ClickImage.Target>
+        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="cf74d0fb-467a-4b4c-8381-c22190ee8e4a" Selector="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;">
+          <ui:Target.TimeoutMS>
+            <InArgument x:TypeArguments="x:Int32" />
+          </ui:Target.TimeoutMS>
+          <ui:Target.WaitForReady>
+            <InArgument x:TypeArguments="ui:WaitForReady" />
+          </ui:Target.WaitForReady>
+        </ui:Target>
+      </ui:ClickImage.Target>
+    </ui:ClickImage>
+  </Sequence>
+</Activity>
